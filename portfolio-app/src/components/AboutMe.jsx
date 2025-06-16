@@ -7,6 +7,7 @@ function AboutMe() {
 
   return (
     <div className="aboutme-container">
+        {/* TODO: insert image at file path */}
       <img
         src="../assets/images/Logan.png"
         alt="Image of Logan"
@@ -14,6 +15,7 @@ function AboutMe() {
       />
       <div className="aboutme-content">
         <h1 className="aboutme-header">Logan Dawes</h1>
+        {/* TODO: replace with actual content */}
         <p className="aboutme-summary">
           Test summary: I am a passionate developer with a love for building engaging and performant web applications. 
           With a strong background in JavaScript, React, and modern web technologies, I enjoy solving complex problems and delivering high-quality user experiences.
