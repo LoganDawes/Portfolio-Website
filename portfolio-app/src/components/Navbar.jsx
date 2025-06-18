@@ -7,6 +7,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
+      {/* TODO: Fix name to not overlap with tabs on smaller screens */}
       <div className="navbar-name">Logan Dawes</div>
       <div className="navbar-tabs">
         {/*About Link*/}

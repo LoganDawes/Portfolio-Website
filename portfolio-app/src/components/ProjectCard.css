@@ -1,0 +1,72 @@
+.projectcard-box {
+  background: #232323;
+  border: 2px solid #fa7e27;
+  border-radius: 0px;
+  width: 340px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+}
+
+.projectcard-image-wrapper {
+  width: 100%;
+  height: 40%;
+  background: #2d2d2d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectcard-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projectcard-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px 16px 20px;
+  background: #232323;
+  overflow: hidden;
+}
+
+.projectcard-header {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 0.7rem 0;
+}
+
+.projectcard-description {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  overflow-y: auto;
+  max-height: 120px;
+  padding-right: 4px;
+}
+
+.projectcard-github-btn {
+  margin-top: auto;
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  background: #fa7e27;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+
+.projectcard-github-btn:hover {
+  background: #bd601d;
+}
