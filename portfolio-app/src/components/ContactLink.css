@@ -1,0 +1,53 @@
+.contactlink-box {
+  display: flex;
+  align-items: center;
+  background: #232323;
+  border: 2px solid #fa7e27;
+  border-radius: 0px;
+  padding: 0 24px;
+  height: 64px;
+  min-width: 240px;
+  max-width: 340px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  transition: background 0.2s, border-color 0.2s;
+  margin-bottom: 12px;
+}
+
+.contactlink-box:hover {
+  background: #2d2d2d;
+  border-color: #bd601d;
+}
+
+.contactlink-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+}
+
+.contactlink-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.contactlink-separator {
+  width: 2px;
+  height: 36px;
+  background: #fa7e27;
+  margin: 0 18px;
+  border-radius: 1px;
+}
+
+.contactlink-title {
+  flex: 1;
+  text-align: left;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
