@@ -6,6 +6,8 @@ function Portfolio() {
   return (
     <>
       <Navbar />
+      <h1 className="page-header">My Projects</h1>
+      <hr className="page-header-hr" />
       <ProjectList />
     </>
   );
